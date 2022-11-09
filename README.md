@@ -23,20 +23,6 @@ When my program starts, it goes to the website where college student’s results
 - Web Automation: By Selenium 
 - Webdriver: Chrome
 
->**Installtion**
-
-- Simple steps for tesseract installation in windows.
-
-  - Download tesseract exe from https://github.com/UB-Mannheim/tesseract/wiki.
-
-  - Install this exe in `C:\Program Files (x86)\Tesseract-OCR`
-
-  - Open virtual machine command prompt in windows or anaconda prompt.
-
-  - Run `pip install pytesseract`
-
-  - To test if tesseract is installed type in python prompt:
-
 >**Future**
 
 This project is not enough to check the results of college students. Rather, with the help of this project, you can also get the data of those websites automatically. Whose data you get one after the other.

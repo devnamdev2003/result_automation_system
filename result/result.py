@@ -21,14 +21,12 @@ roll = int(roll)
 # Infinite loop to fetch results
 while True:
     # Define the payload for the POST request
-    payload = {
-        "rno": str(roll),
-        "session": "cyNmMzI4dzRzZ2kxMjAyM3Ay",
-        "appear_level": "cyNmMzI4dzRzZ3BhcnQy"
+    data = {
+        'rno': str(roll),
+        'session': 'cyNmMzMwdzRzZ2kxMjAyM3Ay',
+        'appear_level': 'cyNmMzMwdzRzZ3BhcnQy'
     }
-
-    # Send a POST request to the URL
-    response = requests.post(url, data=payload)
+    response = requests.post(url, data=data)
 
     # Check if the request was successful (status code 200)
     if response.status_code == 200:

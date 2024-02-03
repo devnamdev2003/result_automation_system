@@ -72,8 +72,8 @@ def main():
     branch = input("Enter Branch Number: ")
 
     # sem = input("Enter semester: ")
-    sem = "6"
-    print("Semester is:6")
+    sem = "7"
+    print("Semester is:7")
 
     # When user enter a wrong branch number
     try:
